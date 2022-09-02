@@ -1,0 +1,56 @@
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-pic{
+  height: 19px;
+width: 19px;
+border-radius: 0px;
+
+}
+
+.main-nav{
+  display: flex;
+  gap: 32px;
+  
+}
+li{
+ 
+  list-style: none;
+font-size: 16px;
+
+line-height: 24px;
+letter-spacing: 0em;
+
+
+
+}
+.login-singup{
+  display: flex;
+  display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    gap: 10px;
+}
+.login-content{
+
+
+}
+.singUp-btn{
+  height: 50px;
+  width: 160px;
+background: #FA7436;
+box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.24);
+border-radius: 5px;
+ 
+}
