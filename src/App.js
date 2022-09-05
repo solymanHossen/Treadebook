@@ -12,6 +12,7 @@ import LeatestBlog from './components/LeatestBlog/LeatestBlog';
 import Subscribe from './components/Subscribe/Subscribe';
 
 const App = () => {
+  //commets
   return (
     <div>
       <NavBar/>
