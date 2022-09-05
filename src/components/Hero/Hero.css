@@ -1,0 +1,44 @@
+.main-hero {
+  display: flex;
+  margin-top: 100px;
+
+}
+
+.hero-img {
+  height: 530px;
+}
+
+.btn-discover {
+  margin-top: 64PX;
+padding: 14px 28px;
+ color: #FA7436; ;
+
+  border-radius: 5px;
+
+}
+.content-hero{
+  gap: 32px;
+}
+.location-date{
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 80px 2px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.btn-explore{
+  border-radius: 5px;
+  background: #FA7436;
+box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.16);
+
+  padding: 14px 28px;
+}
+@media (max-width: 998px) {
+  .hero-img{
+    display: none;
+  }
+  }
+
