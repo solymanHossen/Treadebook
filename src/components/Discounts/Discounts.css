@@ -1,21 +1,27 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 25%;
+  /* height: 400px; */
+  /* background: #FEFCFB; */
+border: 2px solid rgba(102, 102, 102, 0.08);
+border-radius: 8px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 10px 8px 16px 0 solid red; */
+  /* background: #FEFCFB; */
+/* box-shadow: 0px 16px 80px rgba(233, 78, 0, 0.2); */
+box-shadow: 0px 16px 80px -20px rgb(254 147 94 / 20%);
+border-radius: 10px;
 }
 
-.container {
-  padding: 2px 16px;
-}
+
 
 .city {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* padding: 26px 16px; */
 }
 
 .country {
@@ -23,29 +29,39 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 18px;
+  color: #666666;
+
+
 }
 
-.net-price {
+
+/* .net-price {
   padding: 2px 5px;
   background: #FFE7DB;
   border-radius: 8px;
-}
+} */
 
 .card-flex {
   gap: 40px;
   display: flex;
+  margin-top: 64px;
 
 }
 
 .discounts-content{
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 .pagination{
   margin-top: 48px;
   text-align: center;
 }
 .page-icon{
-  padding: 40px 40px;
+  /* padding: 40px 40px; */
   font-size: 40px;
  
 }
@@ -53,3 +69,111 @@
   background:#FA7436 ;
   border-radius: 50%;
 }
+/* .logo-margin{
+  padding-top: 120px;
+} */
+.ineHeight-d{
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+ font-size: 18px;
+ line-height: 54px;
+ color: #666666;;
+ font-weight: 400px;
+ margin-top: 24px;
+}
+.city-font-size{
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.rating-icon{
+  line-height: 24px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.container-d{
+  padding: 32px 16px;
+}
+
+.net-price{
+  margin-left: 8px;
+}
+.margin-price{
+margin-left: 8px;
+}
+.location-m{
+ margin-right: 8px;
+}
+.star-margin{
+  margin-left: 8px;
+}
+
+
+.book-now-btn{
+  padding: 9px 22px;
+  background: #FA7436;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  position: absolute;
+  left: calc(50% - 65px);
+  bottom: 30px;
+  width: 130px;
+  cursor: pointer;
+}
+.btn-relative-postion{
+  position: relative;
+}
+.discount-bgc{
+ background: #FEFCFB  ;
+ padding-bottom: 120px;
+}
+
+/* responsive */
+@media (max-width: 998px) {
+  .logo-content {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600px;
+}
+.card-flex {
+  gap: 6px;
+}
+  
+   
+  }
+@media (max-width: 520px) {
+  .discounts-content{
+    margin-top: 276px;
+  }
+  .card-flex{
+    display: grid;
+    grid-template-columns:2fr;
+  }
+  
+   
+  }
+@media (max-width: 798px) {
+  .logo-content {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600px;
+}
+.card-flex {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr;
+}
+.card{
+  width: 100%;
+}
+
+.book-now-btn{
+    padding: 5px 15px;}
+   
+  }

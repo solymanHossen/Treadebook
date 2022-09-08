@@ -8,22 +8,30 @@ body{
 p{
   font-family: 'Poppins', sans-serif;
 }
-.popinText{
-  font-family: 'Poppins', sans-serif;
- 
-}
 .logo-content{
   font-family: 'Volkhov', serif; ;
-  font-size: 24px;
-  margin-left: 83px;}
+ 
+ }
 
 .container{
   
-max-width: 1200px;
+  max-width: 1200px;
   padding-right: 0.75rem;
   padding-right: var(--bs-gutter-x,.75rem);
   padding-left: 0.75rem;
   padding-left: var(--bs-gutter-x,.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+.color-all{
+  background: #F5F5F5;
+}
+.treadebook-logo-footer{
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.6%;
+
+
 }

@@ -2,3 +2,147 @@
   display: flex;
   justify-content: space-between;
 }
+.p-people{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  width:100% ;
+  margin-top: 24px;
+  
+}
+
+.people-bgc{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #F7F8FC;
+}
+.people-about-us{
+  color:#FA7436 ;
+ 
+}
+.pepole-about{
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 700;
+  width: 70%px;
+  text-align: center;
+}
+.page-icon4{
+  margin-top: 32px;
+  height: 40px;
+  width: 40px;
+ 
+  border-radius: 50%;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.parson-information{
+  padding: 28px 34px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  position: relative;
+  
+
+
+}
+.person-img{
+position: relative;
+height: 68px;
+width: 68px;
+}
+.person-name{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 34px;
+  
+}
+.single-img{
+  border-radius: 50%;
+  height: 68px;
+  width: 68px;
+  position: absolute;
+  bottom: 50%;
+  
+  right: 50%;
+
+}
+.person-content{
+  background: white;
+  width: 50%;
+  
+}
+
+.pepole-content-person{
+ 
+  position: relative;
+
+}
+.pepole-person-mike-taylor{
+  height: 245px;
+  width: 500px;
+
+  position: absolute;
+  left: 49px;
+  border-radius: 10px;
+  box-shadow:0px 100px 80px rgba(0, 0, 0, 0.02);
+  padding: 20px 20px;
+  top: 32%;
+  
+
+  
+}
+.pagination4{
+  margin-top: 7rem;
+    text-align: center;
+
+}
+.person-container{
+padding: 20px 20px;
+height: 245px;
+width: 500px;
+border-radius: 10px;
+box-shadow:0px 100px 80px rgba(0, 0, 0, 0.02);
+background: white;
+}
+.taylor-flex{
+  margin-top: 34%;
+}
+
+
+/* responsive */
+@media (max-width: 998px) {
+
+  .people-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+  .pagination4{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .p-people{
+    text-align: center;
+  }
+ 
+  }
+
+  @media (max-width:524px) {
+    
+    .person-container{
+      width: 92%;
+      margin: 0 auto;
+    
+    }
+    .pepole-person-mike-taylor{
+      width: 50%;
+      top: 90%;
+    }
+    .pepole-about{
+      font-size: 30px;
+      text-align: center;
+    }
+  }

@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
 
 a {
   text-decoration: none;
@@ -16,7 +13,11 @@ li {
   list-style: none;
 }
 
-
+.logo-size{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+}
  
 /* navbar style start  */
 
@@ -24,17 +25,18 @@ li {
   width: 100%;
   height: 10rem;
   display: grid;
-  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  /* grid-template-columns: 10rem 2fr 2fr 1fr 10rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
 .logo {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+
 
 }
+
 
 .menu-link {
   grid-column: 3/4;
@@ -71,7 +73,9 @@ li {
 }
 
 /* ----------- Grid part ends ----------------- */
-
+.hamburger-menu{
+  display: none;
+}
 
 
 .menu-link ul li {
@@ -104,24 +108,40 @@ background: #FA7436;
 box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.24);
 border-radius: 5px;
 cursor: pointer;
+border: none;
 }
 
 .log-in{
-  font-size: 30px;
+  font-size: 16px;
   cursor: pointer;
+  color: #FA7436;
 }
 
 
 
 
 
-/* responsive css style  */
-/* @media (max-width: 1080px) {
-  .main-nav {
-    height: 8rem;
-    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
-  }
-} */
+
+ @media (max-width: 844px) {
+  .singup-login-desktop{
+    margin-right: 2rem;
+
+   }
+   .singU{
+    padding: 10px 8px;
+
+    }
+}  
+ @media (max-width: 798px) {
+   .singup-login .singup-login-desktop {
+    height: 0;
+    display: none;
+  } 
+}  
+
+
+
+
 
 @media (max-width: 998px) {
   .main-nav {
@@ -132,13 +152,10 @@ cursor: pointer;
   .menu-link {
     display: none;
   }
- .logo{
-  margin-left: 65px;  
- }
-  /* .logo,
-  .social-media ul {
-    height: 7rem;
-  } */
+
+  .singup-login-desktop{
+   margin-right: 10rem;
+  }
 
   .mobile-menu-link {
     grid-column: 2/4;
@@ -150,7 +167,7 @@ cursor: pointer;
     background-color: white;
     height: 20rem;
     display: grid;
-    grid-column: 2/5;
+    grid-column: 1/6;
     align-items: center;
     padding-left: 3rem;
     transition: all 2s linear;
@@ -179,10 +196,10 @@ cursor: pointer;
     transition: all 2s linear;
   }
 
-  .singup-login .singup-login-desktop {
+  /* .singup-login .singup-login-desktop {
     height: 0;
     display: none;
-  }
+  } */
 
   .singup-login {
     height: 7rem;

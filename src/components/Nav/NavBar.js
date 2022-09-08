@@ -55,17 +55,18 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 
 import './NavBar'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
-    <>
+    <div className="color-all">
+   <div className="container">
       <nav className="main-nav">
 
         {/* 1st logo part  */}
         <div className="logo">
-         <p className="logo-content">Trabook</p>
+         <p className="logo-content logo-size">Trabook</p>
          <img src={logo} alt="logo"  className='logo-pic'/>
         </div>
 
@@ -112,7 +113,8 @@ const NavBar = () => {
       </nav>
 
  
-    </>
+      </div>
+      </div>
   );
 };
 

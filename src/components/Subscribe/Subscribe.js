@@ -1,22 +1,25 @@
 import React from 'react';
 import './Subscribe.css'
-import {BsSearch} from "react-icons/bs"
+// import {MdMessage} from 'react-icons/md'
 const Subscribe = () => {
   return (
-  <div className="container   subscribe-main">
-   <p>Subscribe and get exclusive deals & offer</p>
+    <div className="subcrib-bgc">
+      <div className="container   subscribe-main">
 
-   <div class="main">
-  
- 
-  <div class="form-group has-search">
-    <span class="fa fa-search form-control-feedback"><BsSearch/></span>
-    <input type="text" class="form-control" placeholder="Search"/>
-    <button>subscribe</button>
-  </div>
-</div>
-  
-  </div>
+
+        <div className="deals-subcribe">
+
+          <p className='logo-content heading-subscribe'>Subscribe and get exclusive deals & offer</p>
+
+          <div className="input-group">
+            <div className="form-outline">
+              <input type="search" id="form1" className="form-control" placeholder='Enter your Email' />
+              <button className='btn-subscribe'>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

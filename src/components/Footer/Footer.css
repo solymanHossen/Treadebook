@@ -1,0 +1,90 @@
+.container-flex-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-bgc {
+  background: #F7F8FC;
+  padding: 120px 0 120px;
+}
+
+.footer-content-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  width: 50%;
+  color: #666666;
+  margin-top: 24px;
+}
+
+.fb-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.instgrm-icon {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: #FA7436;
+  color: white;
+  cursor: pointer;
+}
+
+.github-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.social-icon {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 30px;
+
+}
+
+.bular-text {
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: black;
+  margin-bottom: 32px;
+}
+
+li {
+
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666666;
+  margin-top: 16px;
+}
+
+@media (max-width: 798px) {
+  .container-flex-footer {
+    grid-template-columns:1fr;
+  }
+  .treadebook-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-information{
+    text-align: center;
+  }
+
+  }
